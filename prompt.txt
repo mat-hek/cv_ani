@@ -1,0 +1,9 @@
+Put everything into a JSON with the following keys:
+- role - string, describing what the person usually does, for example 'Python developer', 'Java developer' or 'Data scientist'
+- tech_stack_short - string, popular technologies that the person knows, at most 10, separated with ・
+- tech_stack_long - string, all technologies that the person knows, separated with ・
+- bio - string, short description mentioning the person's experience and strengths
+- languages - string, spoken languages, separated with ・
+- education - list of object with the following keys:
+  - unit - string, the school or other institution that the person graduated from
+  - field - string, 

@@ -1,0 +1,58 @@
+{
+    "role": "Python Developer",
+    "tech_stack_short": "・Python・React・PostgreSQL・AWS・NumPy・Pandas",
+    "experience_years": "17",
+    "bio": "A software developer with experience across various domains, including Earth observation, climate science, genomics, market research, and banking. Work has involved building software and solving data- related challenges — ranging from simple web API microservices to large-scale postprocessing pipelines for multi-petabyte climate modeling archives",
+    "education": [
+        {
+            "unit": "Maria Curie-Skłodowska University, Lublin, Poland",
+            "field": "Integrated MSc in Computer Science (5- year program)",
+            "timespan": "2000 – 2005"
+        }
+    ],
+    "languages": "English (B2+)・Polish (Native)",
+    "tech_stack_long": "・Python・React・NumPy・SciPy ・Pandas・PostgreSQL・GitHub Actions ・GIT・Flask・JavaScript・PHP・R ・IDL・Xarray・Zarr・Scikit-learn ・Iris・Matplotlib・Cartopy ・Paraview・Pyramid・Anaconda ・Docker・Jupyter・Notebook ・RedHat 8・Fedora・Ubuntu・Slurm ・Azure・AWS・GCP",
+    "projects": [
+        {
+            "name": "Climate Risk Modelling and Dashboard",
+            "role": "Senior Software Engineer",
+            "country": "UK",
+            "tech_stack": "Scientific Python, Numpy, Pandas, Xarray, Zarr, Scikit-learn, React-js, IDL.",
+            "description": "Responsible for building a web-based data visualization dashboard for climate risk analysis. Developing a backend system for processing meteorological datasets and climate indicators. Creating a frontend using React for interactive data exploration and playback functionality. Processing satellite and climate data using scientific Python tools. Integrating visual components with React Open Player and IOx server for dynamic data playback."
+        },
+        {
+            "name": "Climate Risk Modelling and Dashboard",
+            "role": "Senior Software Engineer",
+            "country": "UK",
+            "tech_stack": "Scientific Python, Numpy, Pandas, Xarray, Zarr, Scikit-learn, React-js, IDL.",
+            "description": "Responsible for building a web-based data visualization dashboard for climate risk analysis. Developing a backend system for processing meteorological datasets and climate indicators. Creating a frontend using React for interactive data exploration and playback functionality. Processing satellite and climate data using scientific Python tools. Integrating visual components with React Open Player and IOx server for dynamic data playback."
+        },
+        {
+            "name": "Climate Risk Modelling and Dashboard",
+            "role": "Senior Software Engineer",
+            "country": "UK",
+            "tech_stack": "Scientific Python, Numpy, Pandas, Xarray, Zarr, Scikit-learn, React-js, IDL.",
+            "description": "Responsible for building a web-based data visualization dashboard for climate risk analysis. Developing a backend system for processing meteorological datasets and climate indicators. Creating a frontend using React for interactive data exploration and playback functionality. Processing satellite and climate data using scientific Python tools. Integrating visual components with React Open Player and IOx server for dynamic data playback."
+        }
+    ],
+    "experience": [
+        {
+            "role": "Senior Software Engineer",
+            "company": "Space Company",
+            "timespan": "10.2024 – Present",
+            "description": "• Developing offline sensor calibration software for ESA’s EarthCARE satellite.\n• Modelling climate risk and developing a climate data dashboard for the insurance sector.\n• Processing meteorological datasets and calculating climate indicators on the backend.\n• Building an interactive frontend using React for data exploration and playback."
+        },
+        {
+            "role": "Senior Software Engineer",
+            "company": "Space Company",
+            "timespan": "10.2024 – Present",
+            "description": "• Developing offline sensor calibration software for ESA’s EarthCARE satellite.\n• Modelling climate risk and developing a climate data dashboard for the insurance sector.\n• Processing meteorological datasets and calculating climate indicators on the backend.\n• Building an interactive frontend using React for data exploration and playback."
+        },
+        {
+            "role": "Senior Software Engineer",
+            "company": "Space Company",
+            "timespan": "10.2024 – Present",
+            "description": "• Developing offline sensor calibration software for ESA’s EarthCARE satellite.\n• Modelling climate risk and developing a climate data dashboard for the insurance sector.\n• Processing meteorological datasets and calculating climate indicators on the backend.\n• Building an interactive frontend using React for data exploration and playback."
+        }
+    ]
+}

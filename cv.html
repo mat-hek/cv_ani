@@ -7,94 +7,43 @@
     <script src="tailwind.min.js"></script>
 </head>
 <body>
+    <textarea id="input" class="w-[100vw] h-[50vh] p-0 m-0 border-1 relative">
+    </textarea>
+    <button type="button" id="apply" class="block border-1 p-2 m-2 cursor-pointer hover:underline">Apply</button>
     <div class="page">
         <div class="sidebar flex flex-col justify-between">
-            <p>
-                A software developer with
-                experience across various domains,
-                including Earth observation, climate
-                science, genomics, market research,
-                and banking. Work has involved
-                building software and solving data-
-                related challenges — ranging from
-                simple web API microservices to
-                large-scale postprocessing pipelines
-                for multi-petabyte climate modeling
-                archives
-            </p>
+            <p class="data-bio"></p>
 
             <div>
                 <p class="font-bold">Education:</p>
-                <p>
-                    Maria Curie-Skłodowska University,
-                    Lublin, Poland<br>
-                    Integrated MSc in Computer Science (5-
-                    year program)
-                </p>
+                <div>
+                    <div class="data-template data-education">
+                        <p class="data-education:unit"></p>
+                        <p class="data-education:field"></p>
+                    </div>
+                </div>
                 <p class="font-bold pt-3">Languages:</p>
-                <p>
-                    English (B2+)・Polish (Native)
-                </p>
+                <p class="data-languages"></p>
             </div>
             <p class="text-lg">ONWELO</p>
         </div>
         <div class="header">
             <div class="pt-[30px]">
-                <p class="text-lg">+17 years of experience</p>
-                <p class="text-4xl font-bold py-3 uppercase">Python Developer</p>
-                <p class="font-bold text-lg">・Python・React・PostgreSQL・AWS・NumPy・Pandas</p>
+                <p class="text-lg">+<span class="data-experience_years"></span> years of experience</p>
+                <p class="data-role text-4xl font-bold py-3 uppercase"></p>
+                <p class="data-tech_stack_short font-bold text-lg"></p>
             </div>
         </div>
         <div class="main">
             <div class="content pt-3">
                 <p class="font-bold py-3 text-base">KEY PROJECTS</p>
-                <div class="pb-2">
-                    <p class="font-bold py-1">Climate Risk Modelling and Dashboard– Senior Software Engineer, UK</p>
-                    <p>Responsible for building a web-based data visualization dashboard for climate risk analysis.
-                        Developing
-                        a backend system for processing
-                        meteorological datasets and climate indicators. Creating a frontend using React for interactive
-                        data
-                        exploration and playback
-                        functionality. Processing satellite and climate data using scientific Python tools. Integrating
-                        visual
-                        components with React Open Player
-                        and IOx server for dynamic data playback.
-                    </p>
-                    <p class="py-3"><b>Technologies:</b> Scientific Python, Numpy, Pandas, Xarray, Zarr, Scikit-learn,
-                        React-js, IDL.</p>
-                </div>
-                <div class="pb-2">
-                    <p class="font-bold py-1">Climate Risk Modelling and Dashboard– Senior Software Engineer, UK</p>
-                    <p>Responsible for building a web-based data visualization dashboard for climate risk analysis.
-                        Developing
-                        a backend system for processing
-                        meteorological datasets and climate indicators. Creating a frontend using React for interactive
-                        data
-                        exploration and playback
-                        functionality. Processing satellite and climate data using scientific Python tools. Integrating
-                        visual
-                        components with React Open Player
-                        and IOx server for dynamic data playback.
-                    </p>
-                    <p class="py-3"><b>Technologies:</b> Scientific Python, Numpy, Pandas, Xarray, Zarr, Scikit-learn,
-                        React-js, IDL.</p>
-                </div>
-                <div class="pb-2">
-                    <p class="font-bold py-1">Climate Risk Modelling and Dashboard– Senior Software Engineer, UK</p>
-                    <p>Responsible for building a web-based data visualization dashboard for climate risk analysis.
-                        Developing
-                        a backend system for processing
-                        meteorological datasets and climate indicators. Creating a frontend using React for interactive
-                        data
-                        exploration and playback
-                        functionality. Processing satellite and climate data using scientific Python tools. Integrating
-                        visual
-                        components with React Open Player
-                        and IOx server for dynamic data playback.
-                    </p>
-                    <p class="py-3"><b>Technologies:</b> Scientific Python, Numpy, Pandas, Xarray, Zarr, Scikit-learn,
-                        React-js, IDL.</p>
+                <div>
+                    <div class="data-template data-projects pb-2">
+                        <p class="font-bold py-1"><span class="data-projects:name"></span> – <span
+                                class="data-projects:role"></span>, <span class="data-projects:country"></span></p>
+                        <p class="data-projects:description"></p>
+                        <p class="py-3"><b>Technologies:</b> <span class="data-projects:tech_stack"></span></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -102,32 +51,20 @@
     <div class="page">
         <div class="sidebar flex flex-col justify-between">
             <div>
-                <p class="text-base font-bold uppercase">Python Developer</p>
+                <p class="data-role text-base font-bold uppercase"></p>
                 <p class="pt-4 pb-8">___</p>
                 <p class="font-bold">Education:</p>
-                <p>
-                    Maria Curie-Skłodowska University,
-                    Lublin, Poland<br>
-                    Integrated MSc in Computer Science (5-
-                    year program)
-                </p>
+                <div>
+                    <div class="data-template data-education">
+                        <p class="data-education:unit"></p>
+                        <p class="data-education:field"></p>
+                    </div>
+                </div>
                 <p class="font-bold pt-3">Languages:</p>
-                <p>
-                    English (B2+)・Polish (Native)
-                </p>
+                <p class="data-languages"></p>
                 <p class="font-bold pt-3">TECHNOLOGIES & TOOLS:</p>
                 <p class="font-bold">Languages & Frameworks:</p>
-                <p>
-                    ・Python・React・NumPy・SciPy
-                    ・Pandas・PostgreSQL・GitHub Actions
-                    ・GIT・Flask・JavaScript・PHP・R
-                    ・IDL・Xarray・Zarr・Scikit-learn
-                    ・Iris・Matplotlib・Cartopy
-                    ・Paraview・Pyramid・Anaconda
-                    ・Docker・Jupyter・Notebook
-                    ・RedHat 8・Fedora・Ubuntu・Slurm
-                    ・Azure・AWS・GCP
-                </p>
+                <p class="data-tech_stack_long"></p>
             </div>
             <p class="text-lg">ONWELO</p>
 
@@ -135,18 +72,64 @@
         <div class="main">
             <div class="content pt-[50px]">
                 <p class="font-bold py-3 text-base">PROFESSIONAL EXPERIENCE</p>
-                <div class="pb-2">
-                    <p class="font-bold text-base">Senior Software Engineer</p>
-                    <p class="font-bold">Space Company, 10.2024 – Present</p>
-                    <p>
-                        • Developing offline sensor calibration software for ESA’s EarthCARE satellite.<br>
-                        • Modelling climate risk and developing a climate data dashboard for the insurance sector.<br>
-                        • Processing meteorological datasets and calculating climate indicators on the backend.<br>
-                        • Building an interactive frontend using React for data exploration and playback.
-                    </p>
+                <div>
+                    <div class="data-template data-experience pb-4">
+                        <p class="data-experience:role font-bold text-base"></p>
+                        <p class="font-bold"><span class="data-experience:company"></span>, <span
+                                class="data-experience:timespan"></span></p>
+                        <p class="data-experience:description"></p>
+                    </div>
+                </div>
+                <p class="font-bold py-3 text-base">EDUCATION</p>
+                <div>
+                    <div class="data-template data-education pb-4">
+                        <p class="data-education:unit font-bold"></p>
+                        <p class="data-education:field"></p>
+                        <p class="data-education:timespan font-bold"></p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
+<script>
+    const updateNode = (container, prefix, key, fun) => {
+        Array.from(container.getElementsByClassName(`data-${prefix}${key}`)).forEach(fun);
+    }
+
+    const fillData = (container, prefix, data) => {
+        for (const [key, value] of Object.entries(data)) {
+            if (typeof (value) == "string") {
+                updateNode(container, prefix, key, (e) => { e.innerText = value })
+            }
+            if (Array.isArray(value)) {
+                updateNode(container, prefix, key, (e) => {
+                    const parent = e.parentNode;
+                    value.forEach((data) => {
+                        const template = e.cloneNode(true);
+                        template.classList.remove("data-template");
+                        template.classList.add("data-generated");
+                        fillData(template, `${key}:`, data);
+                        parent.appendChild(template);
+                    })
+                });
+            }
+        }
+    }
+
+    const input = document.querySelector("#input");
+    input.focus();
+
+    document.querySelector("#apply").onclick = () => {
+        let data;
+        try {
+            data = JSON.parse(input.value);
+        } catch {
+            data = {};
+        }
+        document.querySelectorAll(".data-generated").forEach((e) => e.parentNode.removeChild(e));
+        fillData(document, "", data);
+    }
+
+</script>
 </html>
